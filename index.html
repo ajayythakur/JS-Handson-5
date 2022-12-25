@@ -131,8 +131,17 @@
     </span> <br>You are given a string S, Your task is to check wether the given string is a Palindrome or not. A Palindrome is a string, which turnout same when read in reverse direction. Example: "naman" is a Palindrome. <br>String can contain both upppercase lowercase letters.</p>
     <p class="ans"><span class="green">Ans -</span>
     <pre>
-      !!! PROBLEM IS YET TO DISCUSS.
-    </pre></p>
+      var Palin_Check = (str) =>
+      {
+      let s=str.split("").reverse().join("").toString();
+      // console.log(s);
+      if(s==str){
+        return "True";
+      }
+      else{
+        return "False";
+      }
+      };    </pre></p>
 
     <p class="ques"><span class="red">Qn 9.Reverse the String 
     </span> <br>You are given a string S, Your task is to Reverse the string. <br> String can contain both upppercase lowercase letters. 
